@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 >Register for Event</h1>
+    <form >
+    <fieldset>
+        <legend id="legend1">Personal Information</legend>
+        <label for="Name">Enter Name:</label>
+        <input type="text" name="Name" id="Name">
+
+        <br><br>
+        
+        <label for="email">Enter Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+
+        <label for="phone">Enter phone no:</label>
+        <input type="tel" name="phone" id="phone">
+        <br><br>
+
+        <label for="upload">Upload ID Proof :</label>
+        <input type="file" id="upload" name="upload"><br><br>
+
+        
+    </fieldset>
+        
+    
+    <fieldset>
+        <legend id="legend2">Event Information</legend>
+        <label for="date">Choose date:</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+         
+
+        <label for="event">Choose event:</label>
+        <select name="event" id="event">
+            <option value="1">Wedding</option>
+            <option value="2">Anniversary</option>
+            <option value="3">Birthday</option>
+
+        </select>
+        <br><br>
+
+        <p>Are you an existing customer?</p>
+        
+        <label for="y">Yes</label>
+        <input type="radio" name="y" id="y">
+
+        <label for="n">No</label>
+        <input type="radio" name="y" id="n">
+        <br><br>
+
+        <label for="com">User comments</label>
+        <input type="textArea" name="com" id="com">
+        <br><br>
+
+    </fieldset>
+    <br>
+
+        
+        <input type="Submit">
+        <input type="Reset">
+        
+    
+
+    </form>
+    
+</body>
+</html>
